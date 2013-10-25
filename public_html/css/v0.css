@@ -7,8 +7,16 @@ and open the template in the editor.
     Created on : 25.10.2013, 21:29:31
     Author     : matus_000
 */
+@font-face
+{
+    font-family: berlinSans ;
+    src: url('../fonts/berlin-sans-fb-demi-bold.ttf');
+}
+
 body{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     background-color:#edf1f8;
+    color: #34306a;
 }
 #mainWrapper{
     width: 600px;
@@ -18,16 +26,50 @@ body{
 #contentWrapper{
     background-color: #5d89c7;
     border-radius: 15px;
-    padding: 15px 15px 15px 15px;
+    padding: 15px;
 }
 #logo{
     width: 219px;
     height: 83px;
     background-image: url('../images/logo.png');
-    margin: 30px 0px 30px 100px;
+    margin: 20px 0px 10px 40px;
+    text-indent: -9999px;
+}
+#topWrapper{
+    overflow: hidden;
+}
+#motto{
+    font-family: "berlinSans";
+    //font-weight: bold;
+    font-size: 45px;
+    float: left;
+}
+
+#download{ 
+    width: 224px;
+    float: right;
+    margin-top: 10px;
+}
+#download #button{
+    /*  docasne som sem vrazil image*/
+    width: 224px;
+    height: 56px;
+    background-image: url('../images/downloadOff.png');
     text-indent: -9999px;
 }
 
-#motto{
-    
+#download #description{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#download #version{
+    font-size: 10px;
+    float:right;
+}
+
+h2{
+    font-family: "berlinSans";
+    font-size: 60px;
+    margin: 0px 0px 0px 50px;
 }
