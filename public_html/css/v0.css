@@ -18,16 +18,19 @@ body{
     background-color:#edf1f8;
     color: #34306a;
 }
-#mainWrapper{
+
+#mainContainer{
     width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
-#contentWrapper{
+
+#content{
     background-color: #5d89c7;
     border-radius: 15px;
     padding: 15px;
 }
+
 #logo{
     width: 219px;
     height: 83px;
@@ -35,9 +38,11 @@ body{
     margin: 20px 0px 10px 40px;
     text-indent: -9999px;
 }
-#topWrapper{
+
+#top{
     overflow: hidden;
 }
+
 #motto{
     font-family: "berlinSans";
     //font-weight: bold;
@@ -50,8 +55,9 @@ body{
     float: right;
     margin-top: 10px;
 }
+
 #download #button{
-    /*  docasne som sem vrazil image*/
+    /*docasne som sem vrazil image*/
     width: 224px;
     height: 56px;
     background-image: url('../images/downloadOff.png');
@@ -72,4 +78,24 @@ h2{
     font-family: "berlinSans";
     font-size: 60px;
     margin: 0px 0px 0px 50px;
+}
+
+#members{
+    list-style: none;
+    overflow: hidden;
+}
+
+#members li{
+    width: 210px;
+    float:left; 
+    display:inline;
+    margin-right: 30px;
+}
+
+#members h3{
+    font-size: 20px;
+}
+
+#memebers p{
+    margin-right: 10px;
 }
