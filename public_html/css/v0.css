@@ -19,16 +19,33 @@ body{
     color: #34306a;
 }
 
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #34306a;
+}
+
+a .hover{
+    color: #edf1f8;
+}
+
+a .visited{
+    font-weight: bold;
+    text-decoration: none;
+    color: #34306a;
+}
+
 #mainContainer{
-    width: 600px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #content{
     background-color: #5d89c7;
-    border-radius: 15px;
-    padding: 15px;
+    border-radius: 30px;
+    padding: 30px 30px 0 30px ;
+    overflow: hidden;
 }
 
 #logo{
@@ -45,9 +62,11 @@ body{
 
 #motto{
     font-family: "berlinSans";
+    width: 500px;
     //font-weight: bold;
     font-size: 45px;
     float: left;
+    margin-bottom: 30px;
 }
 
 #download{ 
@@ -68,7 +87,6 @@ body{
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 #download #version{
     font-size: 10px;
     float:right;
@@ -76,7 +94,7 @@ body{
 
 h2{
     font-family: "berlinSans";
-    font-size: 60px;
+    font-size: 40px;
     margin: 0px 0px 0px 50px;
 }
 
@@ -94,8 +112,13 @@ h2{
 
 #members h3{
     font-size: 20px;
+    margin: 0 0 0 0;
 }
 
 #memebers p{
     margin-right: 10px;
+}
+
+#footer{
+    float: right;
 }
